@@ -6,7 +6,8 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class FoxtailPineTest {
 
-   /**@Test
+
+    @Test
     void test_create() {
         FoxtailPine foxtailPine = new FoxtailPine();
         assertEquals(0, foxtailPine.getHeight());
@@ -23,6 +24,6 @@ class FoxtailPineTest {
         FoxtailPine foxtailPine = new FoxtailPine(5);
         foxtailPine.irrigate();
         assertEquals(6, foxtailPine.getHeight());
-    }**/
+    }
 
 }
