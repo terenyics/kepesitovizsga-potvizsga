@@ -1,4 +1,4 @@
-ppackage hu.nive.ujratervezes.forest;
+package hu.nive.ujratervezes.forest;
 
 import org.junit.jupiter.api.Test;
 
@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class WhitebarkPineTest {
 
-    /**@Test
+    @Test
     void test_create() {
         WhitebarkPine whitebarkPine = new WhitebarkPine();
         assertEquals(0, whitebarkPine.getHeight());
@@ -23,6 +23,6 @@ class WhitebarkPineTest {
         WhitebarkPine whitebarkPine = new WhitebarkPine(5);
         whitebarkPine.irrigate();
         assertEquals(7, whitebarkPine.getHeight());
-    }**/
+    }
 
 }
