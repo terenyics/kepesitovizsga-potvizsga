@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class ForestTest {
 
-    /**@Test
+    @Test
     void test_create() {
         Forest forest = forestWithFiveTrees();
         assertEquals(5, forest.getTrees().size());
@@ -65,5 +65,5 @@ class ForestTest {
                 new WhitebarkPine(2),
                 new FoxtailPine(3)
         )));
-    }**/
+    }
 }
