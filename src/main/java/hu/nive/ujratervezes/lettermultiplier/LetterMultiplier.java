@@ -1,4 +1,4 @@
-package hu.nive.ujratervezes;
+package hu.nive.ujratervezes.lettermultiplier;
 
 public class LetterMultiplier {
 
