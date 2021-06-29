@@ -1,5 +1,6 @@
 package hu.nive.ujratervezes.lettermultiplier;
 
+import hu.nive.ujratervezes.LetterMultiplier;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -8,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 
 class LetterMultiplierTest {
 
-    /**LetterMultiplier letterMultiplier;
+    LetterMultiplier letterMultiplier;
 
     @BeforeEach
     void init() {
@@ -63,6 +64,6 @@ class LetterMultiplierTest {
     @Test
     void test_multiply_one1two2three3And2_oonnee11ttwwoo22tthhrreeee33() {
         assertEquals("oonnee11ttwwoo22tthhrreeee33", letterMultiplier.multiply("one1two2three3", 2));
-    }**/
+    }
 
 }
