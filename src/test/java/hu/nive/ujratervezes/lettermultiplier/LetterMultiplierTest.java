@@ -1,6 +1,5 @@
 package hu.nive.ujratervezes.lettermultiplier;
 
-import hu.nive.ujratervezes.LetterMultiplier;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
