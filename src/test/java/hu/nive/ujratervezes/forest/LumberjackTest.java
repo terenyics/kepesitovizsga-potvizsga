@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class LumberjackTest {
 
-   /** @Test
+   @Test
     void test_can_cut() {
         assertTrue(new Lumberjack().canCut(new WhitebarkPine(10)));
     }
@@ -14,5 +14,5 @@ class LumberjackTest {
     @Test
     void test_can_t_cut() {
         assertFalse(new Lumberjack().canCut(new FoxtailPine(3)));
-    }**/
+    }
 }
